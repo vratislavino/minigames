@@ -27,8 +27,8 @@
         private void InitializeComponent() {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.characterUI1 = new Minigames.CharacterUI();
-            this.characterUI2 = new Minigames.CharacterUI();
+            this.characterUI1 = new CharacterUI();
+            this.characterUI2 = new CharacterUI();
             this.fightButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -71,6 +71,7 @@
             // 
             // fightButton
             // 
+            this.fightButton.Enabled = false;
             this.fightButton.Location = new System.Drawing.Point(336, 513);
             this.fightButton.Name = "fightButton";
             this.fightButton.Size = new System.Drawing.Size(220, 38);

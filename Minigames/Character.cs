@@ -43,6 +43,8 @@ namespace Minigames
 
     public class Character
     {
+        public event Action HealthChanged;
+
         private string name;
         private string description;
         private string lore;
@@ -56,7 +58,11 @@ namespace Minigames
         public string Name { get => name; set => name = value; }
         public string Description { get => description; set => description = value; }
         public string Lore { get => lore; set => lore = value; }
-        public int Hp { get => hp; set => hp = value; }
+        public int Hp { get => hp; set {
+                hp = value;
+                HealthChanged?.Invoke();
+            } 
+        }
         public double Dexterity { get => dexterity; set => dexterity = value; }
         public int Damage { get => damage; set => damage = value; }
         public double ChanceToCrit { get => chanceToCrit; set => chanceToCrit = value; }

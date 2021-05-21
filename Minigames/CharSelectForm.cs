@@ -10,6 +10,13 @@ using System.Windows.Forms;
 
 namespace Minigames
 {
+    /*
+     
+       TODO: LORE!!! 
+
+     */
+
+
     public partial class CharSelectForm : Form
     {
         List<Character> characters = new List<Character>() {
@@ -34,12 +41,26 @@ namespace Minigames
         }
 
         private void OnCharacterClicked(Character character) {
+            fightButton.Enabled = true;
+
             characterUI1.Character = character;
             characterUI2.Character = characters[new Random().Next(characters.Count)];
         }
 
         private void fightButton_Click(object sender, EventArgs e) {
-            // TODO: Přechod do hry + lore!
+            //  Přechod do hry
+
+
+
+            GameForm form = new GameForm();
+            form.SetCharacters(characterUI1.Character, characterUI2.Character);
+
+            form.FormClosing += (s, evt) => {
+                this.Show();
+            };
+            this.Hide();
+
+            form.Show();
         }
     }
 }

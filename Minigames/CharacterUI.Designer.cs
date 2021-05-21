@@ -30,11 +30,11 @@ namespace Minigames
             this.charName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.charDescription = new System.Windows.Forms.Label();
-            this.speedBar = new Minigames.Bar();
-            this.chanceToCritBar = new Minigames.Bar();
-            this.dexterityBar = new Minigames.Bar();
-            this.damageBar = new Minigames.Bar();
-            this.hpBar = new Minigames.Bar();
+            this.speedBar = new Bar();
+            this.chanceToCritBar = new Bar();
+            this.dexterityBar = new Bar();
+            this.damageBar = new Bar();
+            this.hpBar = new Bar();
             ((System.ComponentModel.ISupportInitialize)(this.charImage)).BeginInit();
             this.SuspendLayout();
             // 

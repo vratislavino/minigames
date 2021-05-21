@@ -21,3 +21,6 @@ C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.pdb
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.Bar.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharacterUI.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharSelectForm.resources
+C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharacterGameUI.resources
+C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.GameForm.resources
+C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.LetterMinigame.resources

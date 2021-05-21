@@ -53,6 +53,12 @@
       <DependentUpon>Bar.cs</DependentUpon>
     </Compile>
     <Compile Include="Character.cs" />
+    <Compile Include="CharacterGameUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CharacterGameUI.Designer.cs">
+      <DependentUpon>CharacterGameUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="CharacterMinUI.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,10 +84,20 @@
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ICharacterUI.cs" />
+    <Compile Include="IMinigame.cs" />
+    <Compile Include="MinigamesFolder\LetterMinigame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MinigamesFolder\LetterMinigame.Designer.cs">
+      <DependentUpon>LetterMinigame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bar.resx">
       <DependentUpon>Bar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharacterGameUI.resx">
+      <DependentUpon>CharacterGameUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CharacterMinUI.resx">
       <DependentUpon>CharacterMinUI.cs</DependentUpon>
@@ -91,6 +107,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CharSelectForm.resx">
       <DependentUpon>CharSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinigamesFolder\LetterMinigame.resx">
+      <DependentUpon>LetterMinigame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
