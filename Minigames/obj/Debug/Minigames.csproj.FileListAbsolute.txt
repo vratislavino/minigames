@@ -24,3 +24,10 @@ C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharSelectFo
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharacterGameUI.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.GameForm.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.LetterMinigame.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.Bar.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.CharacterGameUI.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.CharacterUI.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.CharSelectForm.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.GameForm.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.LetterMinigame.resources
+C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.MockupMinigame.resources
