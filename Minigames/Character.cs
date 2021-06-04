@@ -41,7 +41,7 @@ namespace Minigames
         };
     }
 
-    public class Character
+    public class Character : ICloneable
     {
         public event Action HealthChanged;
 
@@ -54,6 +54,8 @@ namespace Minigames
         private double chanceToCrit;
         private int speed;
         private Image image;
+
+        private string imageUrl;
 
         public string Name { get => name; set => name = value; }
         public string Description { get => description; set => description = value; }
@@ -70,7 +72,22 @@ namespace Minigames
         public Image Image { get => image; set => image = value; }
 
         public Character(string imagePath) {
+            imageUrl = imagePath;
             image = Image.FromFile(imagePath);
+        }
+
+        public object Clone()
+        {
+            return new Character(imageUrl) {
+                Name = Name,
+                Description = Description,
+                Lore = Lore,
+                Hp = Hp,
+                Dexterity = Dexterity,
+                Damage = Damage,
+                ChanceToCrit = ChanceToCrit,
+                Speed = Speed
+            };
         }
     }
 }

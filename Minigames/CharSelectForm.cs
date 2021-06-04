@@ -53,7 +53,10 @@ namespace Minigames
 
 
             GameForm form = new GameForm();
-            form.SetCharacters(characterUI1.Character, characterUI2.Character);
+            form.SetCharacters(
+                (Character)characterUI1.Character.Clone(), 
+                (Character)characterUI2.Character.Clone()
+                );
 
             form.FormClosing += (s, evt) => {
                 this.Show();

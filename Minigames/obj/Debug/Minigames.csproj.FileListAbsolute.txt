@@ -11,7 +11,6 @@ C:\Users\VratislavMedricky\source\repos\Minigames\Minigames\obj\Debug\Minigames.
 C:\Users\vrati\source\repos\Minigames\Minigames\bin\Debug\Minigames.exe.config
 C:\Users\vrati\source\repos\Minigames\Minigames\bin\Debug\Minigames.exe
 C:\Users\vrati\source\repos\Minigames\Minigames\bin\Debug\Minigames.pdb
-C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.csprojAssemblyReference.cache
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.CharacterMinUI.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.Properties.Resources.resources
 C:\Users\vrati\source\repos\Minigames\Minigames\obj\Debug\Minigames.csproj.GenerateResource.cache
@@ -31,3 +30,6 @@ C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.
 C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.GameForm.resources
 C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.LetterMinigame.resources
 C:\Users\VratislavMedricky\source\repos\minigames\Minigames\obj\Debug\Minigames.MockupMinigame.resources
+C:\Users\vrati\source\repos\minigames\Minigames\obj\Debug\Minigames.csproj.AssemblyReference.cache
+C:\Users\vrati\source\repos\minigames\Minigames\obj\Debug\Minigames.MockupMinigame.resources
+C:\Users\vrati\source\repos\minigames\Minigames\obj\Debug\Minigames.WallMinigame.resources

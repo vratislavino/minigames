@@ -91,6 +91,12 @@
     <Compile Include="MinigamesFolder\LetterMinigame.Designer.cs">
       <DependentUpon>LetterMinigame.cs</DependentUpon>
     </Compile>
+    <Compile Include="MinigamesFolder\WallMinigame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MinigamesFolder\WallMinigame.Designer.cs">
+      <DependentUpon>WallMinigame.cs</DependentUpon>
+    </Compile>
     <Compile Include="MockupMinigame.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MinigamesFolder\LetterMinigame.resx">
       <DependentUpon>LetterMinigame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinigamesFolder\WallMinigame.resx">
+      <DependentUpon>WallMinigame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MockupMinigame.resx">
       <DependentUpon>MockupMinigame.cs</DependentUpon>

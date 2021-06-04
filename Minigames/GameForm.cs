@@ -34,11 +34,12 @@ namespace Minigames
 
         public void StartRandomMinigame() {
             Random r = new Random();
-            int index = r.Next(0, 1);
+            int index = r.Next(0, 2);
 
             if (offense == character2)
                 index = -1;
 
+            index = 1;
             var minigame = GetMinigameByIndex(index);
 
             currentMinigame = minigame;
@@ -89,6 +90,7 @@ namespace Minigames
             switch(index) {
                 case -1: return new MockupMinigame();
                 case 0: return new LetterMinigame();
+                case 1: return new WallMinigame();
             }
 
             return new LetterMinigame();
