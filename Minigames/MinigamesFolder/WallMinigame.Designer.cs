@@ -36,8 +36,12 @@ namespace Minigames
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Plum;
+            this.DoubleBuffered = true;
             this.Name = "WallMinigame";
             this.Size = new System.Drawing.Size(800, 738);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.WallMinigame_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.WallMinigame_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.WallMinigame_KeyUp);
             this.ResumeLayout(false);
 
         }
